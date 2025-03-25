@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ article.title }}</title>
+</head>
+<body>
+    <h1>{{ article.title }}</h1>
+    <p>Par {{ article.author }} le {{ article.date }}</p>
+    <div>{{ article.content }}</div>
+
+    <a href="{{ path('articles') }}">Retour à la liste</a>
+</body>
+</html>
